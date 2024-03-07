@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(Fontes/Outfit-VariableFont_wght.ttf);
+}
+
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url(Fontes/YoungSerif-Regular.ttf);
+}
+
+
+body{
+    background-color: #f7cea6;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+main{
+    min-height: 100vw;
+    margin: auto;
+}    
+
+.upper{
+    left: 28%;
+    position: relative;
+    background-color: #fff9ff;
+    top: 100px;
+    width: 900px;
+    height: 2000px;
+    border-radius: 20px;
+}
+
+.upper h1{
+    font-family: 'Young Serif';
+    text-align: justify;
+    position: relative;
+    left: 60px;
+    top: 29px;
+}
+
+.upper p{
+    font-family: 'Outfit';
+    text-align: justify;
+    width: 780px;
+    left: 60px;
+    top: 20px;
+    position: relative;
+}
+
+.upper img{
+    width: 780px;
+    height: 370px;
+    border-radius: 20px;
+    left: 60px;
+    position: relative;
+    top: 30px;
+    border: 1px solid #b9b6b7;
+}
+
+.preparação{
+    position: relative;
+    left: 31%;
+    bottom: 1350px;
+    background-color: #ffe6ff;
+    width: 790px;
+    height: 180px;
+    border-radius: 18px;
+}
+
+.preparação h3{
+    font-family: 'Young Serif';
+    position: relative;
+    left: 47px;
+    top: 20px;
+    color: #502030;
+}
+
+.preparação li{
+    font-family: 'Outfit';
+    position: relative;
+    top: 25px;
+    left: 30px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+.ingredientes{
+    position: relative;
+    left: 580px;
+    bottom: 1340px;
+}
+
+.ingredientes h2{
+    font-family: 'Young Serif';
+    color: #502030;
+}
+
+.ingredientes li{
+    font-family: 'Outfit';
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+.ingredientes hr{
+    width: 790px;
+    position: relative;
+    left: -540px ;
+    top: 25px;
+}
+
+.instruções{
+    position: relative;
+    bottom: 1250px;
+    left: 500px;
+}
+
+.instruções li{
+    text-align: justify;
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+    width: 720px;
+    font-family: 'Outfit';
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+
+.instruções h2{
+    position: relative;
+    bottom: 60px;
+    left: 80px;
+    font-family: 'Young Serif';
+    color: #502030;
+    font-size: 25px;
+}
+
+.instruções hr{
+    width: 790px;
+    position: relative;
+    left: -460px ;
+    bottom: 40px;
+}
+
+.nutrição h2{
+    position: relative;
+    bottom: 1280px;
+    left: 580px;
+    font-family: 'Young Serif';
+    color: #502030;
+    font-size: 25px;
+}
+
+.nutrição p{
+    position: relative;
+    bottom: 1275px;
+    left: 580px;
+    font-family: 'Outfit';
+    text-align: justify;
+}
+
+.nutrição table{
+    font-family: 'Outfit';
+    position: relative;
+    bottom: 1300px;
+    left: 580px;
+    border-spacing: 40px;
+}
+
+.nutrição th{
+    display: table-row;
+    position: relative;
+    font-weight: normal;
+  
+}
+
+.nutrição td{
+    display: table-row;
+    position: relative;
+    left: 450px;
+    bottom: 318px;
+    font-weight: bold;
+    color: #502030;
+}
+
+.nutrição hr{
+    width: 790px;
+    position: relative;
+    left: 40px ;
+    bottom: 1870px;
+}
+
+.linha2{
+    width: 790px;
+    position: relative;
+    left: 574px ;
+    bottom: 1750px;
+}
+
+.linha3{
+    width: 790px;
+    position: relative;
+    left: 574px ;
+    bottom: 1825px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+body{
+    background-color: #fff9ff;
+    overflow-x: hidden;
+    width: 100vw;
+}
+        
+ 
+
+
+
+
+
+
+
+
+
+
+
+.upper img{
+         width: 359px;
+         height: 200px;   
+         margin: auto;
+         position: relative;
+         left: -100px;
+         top: -100px;
+         border-radius: 0px;
+}
+
+.upper h1{
+    position: relative;
+    left: -60px;
+    top: -100px;
+    font-size: 30px;
+    width: 280px;
+    text-align: justify;
+}  
+
+.upper p{
+    position: relative;
+    left: -60px;
+    top: -100px;
+    width: 290px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.preparação{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 40px;
+    top: -1500px;
+}
+
+.preparação h3{
+    position: relative;
+    left: 19px;
+}
+.preparação ul{
+    position: relative;
+    left: -30px;
+}
+
+.ingredientes{
+    position: relative;
+    left: 50px;
+    bottom: 1490px;
+}
+
+.ingredientes ul{
+    position: relative;
+    left: -20px;
+    width: 240px;
+    text-align: justify;
+}
+
+.ingredientes hr{
+    width: 300px;
+    position: relative;
+    left: -50px;
+    top: 5px;
+}
+
+.instruções{
+    position: relative;
+    left: -32px;
+    top: -1420px;
+    text-align: justify;
+}
+
+.instruções li{
+    text-align: justify;
+    position: relative;
+    width: 230px;
+}
+
+.instruções hr{
+    width: 300px;
+    position: relative;
+    left: 40px;
+    top: -50px;
+
+}
+
+.nutrição{
+    position: relative;
+    left: -530px;
+    top: -190px;
+}
+
+.nutrição p{
+    position: relative;
+    bottom: 1280px;
+    text-align: justify;
+    width: 270px;
+    font-size: 17px;
+}
+
+.nutrição th{
+    position: relative;
+    left: -60px;
+    top: -40px;
+    text-align: left;
+}
+
+.nutrição td{
+    position: relative;
+    left: 120px;
+    top: -360px;
+    
+}
+
+.nutrição hr{
+    position: relative;
+    top: -1910px;
+    left: 535px;
+    width: 300px;
+}
+
+.linha2 hr{
+    position: relative;
+    left: -770px;
+    top: -300px;
+    width: 300px;
+}
+
+.linha3 hr{
+    position: relative;
+    left: -767px;
+    width: 300px;
+    top: -170px;
+}
+
+}
